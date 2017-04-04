@@ -1,0 +1,11 @@
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\bin\Debug\WindowSaver.exe.config
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\bin\Debug\WindowSaver.exe
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\bin\Debug\WindowSaver.pdb
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\WindowSaver.csprojResolveAssemblyReference.cache
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\Interop.SHDocVw.dll
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\WindowSaver.csproj.ResolveComReference.cache
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\WindowSaver.Properties.Resources.resources
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\WindowSaver.csproj.GenerateResource.Cache
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\WindowSaver.exe
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\WindowSaver.pdb
+c:\users\kyle\documents\visual studio 2015\Projects\WindowSaver\WindowSaver\obj\Debug\WindowSaver.Form1.resources
