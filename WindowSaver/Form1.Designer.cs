@@ -36,6 +36,7 @@
             this.urlTest = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.excelTestB = new System.Windows.Forms.Button();
+            this.txtFileButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // testBox1
@@ -116,12 +117,23 @@
             this.excelTestB.UseVisualStyleBackColor = true;
             this.excelTestB.Click += new System.EventHandler(this.excelTestB_Click);
             // 
+            // txtFileButton
+            // 
+            this.txtFileButton.Location = new System.Drawing.Point(420, 221);
+            this.txtFileButton.Name = "txtFileButton";
+            this.txtFileButton.Size = new System.Drawing.Size(75, 23);
+            this.txtFileButton.TabIndex = 9;
+            this.txtFileButton.Text = "Procs";
+            this.txtFileButton.UseVisualStyleBackColor = true;
+            this.txtFileButton.Click += new System.EventHandler(this.txtFileButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1522, 622);
+            this.Controls.Add(this.txtFileButton);
             this.Controls.Add(this.excelTestB);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.urlTest);
@@ -147,6 +159,7 @@
         private System.Windows.Forms.Button urlTest;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button excelTestB;
+        private System.Windows.Forms.Button txtFileButton;
     }
 }
 

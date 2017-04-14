@@ -13,6 +13,9 @@ namespace ExcelExtensions
     public partial class ExcelAppCollection
     {
 
+        #region My Methods
+        #endregion
+
         #region Methods
 
         private static xlApp InnerFromProcess(Process p)
@@ -29,6 +32,8 @@ namespace ExcelExtensions
 
         private static xlApp InnerFromHandle(Int32 handle)
         {
+            //assign the handle to be that excel window
+            //then grab application object
             xlWin win = null;
             Int32 hr = AccessibleObjectFromWindow(handle, DW_OBJECTID, rrid.ToByteArray(), ref win);
             return win.Application;
@@ -72,6 +77,33 @@ namespace ExcelExtensions
 
         [DllImport("User32.dll")]
         private static extern IntPtr GetWindow(IntPtr hWnd, UInt32 uCmd);
+
+        [DllImport("Kernel32.dll", SetLastError =
+            true, CharSet = CharSet.Auto)]
+        static extern uint
+        GetFinalPathNameByHandle(IntPtr hfile,
+            [MarshalAs(UnmanagedType.LPTStr)]
+            StringBuilder lpszFilePath, uint
+            cchFilePath, uint dwFlags);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        [PreserveSig]
+        public static extern uint GetModuleFileName
+        (
+            [In]
+            IntPtr hModule,
+
+            [Out]
+            StringBuilder lpFilename,
+
+            [In]
+            [MarshalAs(UnmanagedType.U4)]
+            int nSize
+        );
+
+        [DllImport("kernel32.dll")]
+            static extern uint GetFullPathName(string lpFileName, uint nBufferLength,
+            [Out] StringBuilder lpBuffer, out StringBuilder lpFilePart);
 
         #endregion
 

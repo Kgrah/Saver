@@ -51,8 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="HandleHandler.cs" />
+    <Compile Include="Items\Test.cs" />
+    <Compile Include="Items\exEnumClass.cs" />
+    <Compile Include="Items\exEnumInterface.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
